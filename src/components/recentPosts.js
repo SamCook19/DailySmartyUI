@@ -17,8 +17,8 @@ class RecentPosts extends Component {
             
             if(index < 3) {
                 return ( 
-                    <li>
-                        <Post {...post} key={index} />
+                    <li key={index}>
+                        <Post {...post}  />
                         </li>
                     )
             }
