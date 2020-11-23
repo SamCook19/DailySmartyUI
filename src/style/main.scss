@@ -28,9 +28,21 @@ body {
     width: 66vw;
     display: grid;
     align-content: space-around;
+    justify-items: stretch;
+}
+
+.recent-posts {
+    display: grid;
     justify-items: center;
 }
 
 @import './searchBar.scss';
+@import './recentPosts.scss';
 
 $colorgrayone: #666666;
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
