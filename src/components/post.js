@@ -31,7 +31,7 @@ class Post extends Component {
         if(link.includes('.html')) {
             link = link.substring(0, link.length - 5);
         }
-        if(link.includes('.htm')) {
+        if(link.includes('.html')) {
             link = link.substring(0, link.length - 4);
         }
 
