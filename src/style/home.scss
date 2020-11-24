@@ -1,0 +1,9 @@
+.home {
+    @include default-page-layout()
+
+}
+
+.logo-main {
+    display: grid;
+    justify-content: center;
+}
